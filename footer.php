@@ -23,7 +23,7 @@
             <p> <i class="fas fa-phone"></i> +880166457890 </p>
             <p> <i class="fas fa-phone"></i> +880166459890 </p>
             <p> <i class="fas fa-envelope"></i> flores@gmail.com </p>
-            <p> <i class="fas fa-map-marker-alt"></i> Dhaka, Bangladesh - 123-456 </p>
+            <p> <i class="fas fa-map-marker-alt"></i> Dhaka, Bangladesh</p>
         </div>
 
         <div class="box">
