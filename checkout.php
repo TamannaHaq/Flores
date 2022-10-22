@@ -88,7 +88,7 @@ if(isset($_POST['order'])){
             echo '<p class="empty">your cart is empty</p>';
         }
     ?>
-    <div class="grand-total">grand total : <span>$<?php echo $grand_total; ?>/-</span></div>
+    <div class="grand-total">grand total : <span>Tk.5<?php echo $grand_total; ?>/-</span></div>
 </section>
 
 <section class="checkout">
@@ -129,15 +129,15 @@ if(isset($_POST['order'])){
             </div>
             <div class="inputBox">
                 <span>city :</span>
-                <input type="text" name="city" placeholder="e.g. mumbai">
+                <input type="text" name="city" placeholder="e.g. Natore">
             </div>
             <div class="inputBox">
                 <span>state :</span>
-                <input type="text" name="state" placeholder="e.g. maharashtra">
+                <input type="text" name="state" placeholder="e.g. Rajshahi">
             </div>
             <div class="inputBox">
                 <span>country :</span>
-                <input type="text" name="country" placeholder="e.g. india">
+                <input type="text" name="country" placeholder="e.g. Bangladesh">
             </div>
             <div class="inputBox">
                 <span>pin code :</span>

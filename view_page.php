@@ -93,7 +93,7 @@ if(isset($_POST['add_to_cart'])){
     <form action="" method="POST">
          <img src="uploaded_img/<?php echo $fetch_products['image']; ?>" alt="" class="image">
          <div class="name"><?php echo $fetch_products['name']; ?></div>
-         <div class="price">$<?php echo $fetch_products['price']; ?>/-</div>
+         <div class="price">Tk.2<?php echo $fetch_products['price']; ?>/-</div>
          <input type="number" name="product_quantity" value="1" min="0" class="qty">
          <input type="hidden" name="product_id" value="<?php echo $fetch_products['id']; ?>">
          <input type="hidden" name="product_name" value="<?php echo $fetch_products['name']; ?>">
