@@ -117,14 +117,13 @@ CREATE TABLE `products` (
 -- Dumping data for table `products`
 --
 
-INSERT INTO `products` (`id`, `name`, `details`, `price`, `image`) VALUES
-(13, 'pink rose', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque error earum quasi facere optio tenetur.', 12, 'pink roses.jpg'),
-(15, 'cottage rose', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque error earum quasi facere optio tenetur.', 15, 'cottage rose.jpg'),
-(16, 'lavendor rose', 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, nobis tenetur voluptatibus officiis odit minus fugit dolore accusantium fuga ipsa!', 13, 'lavendor rose.jpg'),
-(17, 'yellow tulipa', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque error earum quasi facere optio tenetur.', 14, 'yellow tulipa.jpg'),
-(18, 'red tulipa', 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, nobis tenetur voluptatibus officiis odit minus fugit dolore accusantium fuga ipsa!', 11, 'red tulipa.jpg'),
-(19, 'pink bouquet', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque error earum quasi facere optio tenetur.', 15, 'pink bouquet.jpg'),
-(20, 'pink queen rose', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque error earum quasi facere optio tenetur.', 24, 'pink queen rose.jpg');
+INSERT INTO `products` (`id`, `name`, `details`, `price`, `image`) (NULL, 'pink rose', 'beautiful flower to gift a beautiful person\r\n', '120', 'pink roses.jpg'),
+(NULL, 'Cottage rose', 'fresh flowers', '150', 'cottage rose.jpg'),
+(NULL, 'lavendor rose', 'Fresh and in a good condition', '130', 'lavendor rose.jpg'),
+(NULL, 'Chocolates', 'Delicious', '280', '28a1e2857110540c4cae1bd46734e5ba.png'),
+(NULL, 'Cake', 'Chocolate cake', '100', 'chocolate pastry.jpg'),
+(NULL, 'Perfume', 'Smells Nice', '520', 'perfume.jpg'),
+(NULL, 'Box Of Chocolate', 'Bubble chocolate', '370', 'th (4).jfif');
 
 -- --------------------------------------------------------
 
