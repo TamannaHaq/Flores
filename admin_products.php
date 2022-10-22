@@ -96,7 +96,7 @@ if(isset($_GET['delete'])){
             while($fetch_products = mysqli_fetch_assoc($select_products)){
       ?>
       <div class="box">
-         <div class="price">$<?php echo $fetch_products['price']; ?>/-</div>
+         <div class="price">Tk.<?php echo $fetch_products['price']; ?>/-</div>
          <img class="image" src="uploaded_img/<?php echo $fetch_products['image']; ?>" alt="">
          <div class="name"><?php echo $fetch_products['name']; ?></div>
          <div class="details"><?php echo $fetch_products['details']; ?></div>
